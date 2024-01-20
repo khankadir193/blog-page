@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    padding: 4px;
+}
+
+.nav-container {
+    background-color: #333;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-inline-end: 1rem;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container img {
+    width: 10%;
+    height: 6vh;
+    display: flex;
+    padding-inline-start: .5rem;
+}
+
+button {
+    padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+    /* padding-left: 1.8rem; */
+    /* padding-right: 1.8rem; */
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: wheat;
+}
+
+.left-bodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.blog-container h3 {
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* .first-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: -4px;
+} */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    /* text-align: center; */
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-inline: 1rem; */
+    /* margin: 1rem; */
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
